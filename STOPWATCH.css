@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    font-family: monospace;
+    background-image: url(img.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5em;
+}
+#content{
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    font-size: 6em;
+    backdrop-filter: blur(5px);
+    background-color: rgba(192, 192, 192, 0.222);
+    margin-left: 25%;
+    margin-right: 25%;
+    border: groove;
+    height: 4em;
+    border-radius: 5%;
+}
+h1{
+    font-size: 6em;
+    color: rgb(113, 17, 17);
+    backdrop-filter: blur(5px);
+    background-color: rgba(192, 192, 192, 0.222);
+    margin-left: 25%;
+    margin-right: 25%;
+}
+button{
+    font-size: 1cm;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    margin: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.7s ease;
+}
+#start{
+    background-color: rgb(2, 106, 2);
+}
+#start:hover{
+    background-color: rgb(33, 185, 33);
+}
+
+#stop{
+    background-color: rgb(102, 3, 3);
+}
+#stop:hover{
+    background-color: rgb(148, 29, 29);
+}
+#reset{
+    background-color: rgb(2, 5, 84);
+}
+#reset:hover{
+    background-color: rgb(33, 46, 182);
+}
